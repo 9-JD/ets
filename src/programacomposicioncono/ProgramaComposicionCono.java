@@ -14,9 +14,9 @@ public class ProgramaComposicionCono {
 	 * la clase Object es la superclase de todas las demás es que en cualquier atributo definido con un tipo Object podrá ser inicializado con cualquier tipo.
 	 *tambien nos permite utilizar metodos como quals, getClass, hashCode, notify, notifyAll, toString.
 	 */
-	private static void imprimir (Object datos) {
+	private static void imprimir (Object datos1) {
 	
-	 System.out.println(datos);
+	 System.out.println(datos1);
 	 }
 /**
  * 
@@ -26,11 +26,11 @@ public class ProgramaComposicionCono {
 		//importamos la clase de random y declaramos una variable
 	java.util.Random aleatorio = new java.util.Random();
 	//se repite cinco veces el bucle
-	 for (int i=1; i<=5; i++) {
+	 for (int k=1; k<=5; k++) {
 		 //valor del uno al nueve
-	 int radio = aleatorio.nextInt(9)+1;
+	 int radios = aleatorio.nextInt(9)+1;
 	 //cargamos los datos en el construtor de cono
-	 Cono cono = new Cono(0, 0, radio, i, "Azul");
+	 Cono cono = new Cono(0, 0, radios, k, "Azul");
 	 //imprimimos todos los elementos
 	 cono.imprimir();
 	}
