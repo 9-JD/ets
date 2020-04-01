@@ -4,9 +4,10 @@ package programacomposicioncono;
  *
  *
  * @author Juan Daniel Sánchez González.
- * @version 27/marzo/2020. 
+ * @version 30/marzo/2020, esta version a sido modificada para ver sus cambio en git 
  * Esta clase contiene el objeto cono y tambien uno de
  *  sus atributos es otro objeto circulo
+ *  
  */
 public class Cono {
 	// atributos del objeto cono
