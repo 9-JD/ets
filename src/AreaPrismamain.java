@@ -12,8 +12,11 @@ public class AreaPrismamain {
 	public static void main(String[] args) {
 
 //inicializacion de variables
+		//lista que es un objeto de la areaprimasclass
 		List<AreaPrismaclass> listaprisma = new ArrayList<>();
+		//lista con float
 		List<Float> areatotal = new ArrayList<>();
+		//lista tipo string
 		List<String> areatotal_string = new ArrayList<>();
 		List<String> areatotal1_string = new ArrayList<>();
 
