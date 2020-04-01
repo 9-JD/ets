@@ -11,6 +11,9 @@ public class Circulo {
 	// atributos del circulo
 	private float x, y;
 	private float radio;
+	private float num;
+	
+	
 
 	/**
 	 * Con este constructor se cargan los datos asignados a los atributos de dicho
